@@ -1,4 +1,10 @@
 <?php
+
+add_theme_support( 'automatic-feed-links' );
+
+if ( ! isset( $content_width ) ) 
+    $content_width = 680;
+
 if ( function_exists('register_sidebar') ) {
 	register_sidebar(array(
 		'name' => 'Sidebar - Index',

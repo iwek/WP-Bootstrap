@@ -6,7 +6,7 @@ get_header();
 		<div class="post-page">
 			<h2>404</h2>
 			<div class="entry">
-				<p>Hmm, that's peculiar. It appears the URL you entered has either been removed, possibly mistyped (not by your competent hands, of course), or has been moved to another location. Visit the <a href="<?php echo get_settings('home'); ?>/">homepage</a> for help.</p>
+				<p>Hmm, that's peculiar. It appears the URL you entered has either been removed, possibly mistyped (not by your competent hands, of course), or has been moved to another location. Visit the <a href="<?php echo home_url(); ?>/">homepage</a> for help.</p>
 			</div>
 		</div>
 	</div>

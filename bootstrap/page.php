@@ -12,6 +12,7 @@ get_header();
 		</div>
 		<?php endwhile; else: ?>
 		<?php endif; ?>
+		<?php wp_link_pages(); ?>
 	</div>
 	<?php include (TEMPLATEPATH . '/side-column-post.php'); ?>
 </div>
