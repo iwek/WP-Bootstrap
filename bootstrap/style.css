@@ -1,0 +1,40 @@
+/*  
+
+Theme Name: Bootstrap
+Theme URI: http://risingtrends.com/blog/bootstrap-wordpress-theme/
+Description: Bootstrap Wordpress Theme
+Version: 1.0
+Author: Iwo Kadziela
+Author URI: http://risingtrends.com
+Tags: white, grid, whitespace, minimal, clean, twitter, seo, bootstrap, two-columns
+
+*/
+
+body {
+	padding-top: 60px;
+}
+
+.left {float:left;}
+.right {float:right;}
+
+.content .span12 {
+	padding-right: 20px;
+	width: 680px;
+}
+
+.content .span4 {
+	margin-left: 0;
+	padding-left: 19px;
+	border-left: 1px solid #eee;
+}
+
+.nav .current_page_item>a{color: #FFFFFF;}
+.post-meta {font-size:11px;margin-bottom:10px;}
+.comment-list li {margin-bottom:30px;}
+.comment-list ul.children {list-style:none; margin-left: 20px;margin-top:30px;}
+
+#commentform .actions {background:none;border:none;}
+.comment-body .avatar {float:left;margin-right:10px;}
+.comment-body .says {display:none;}
+.comment-body .comment-meta a {color:#404040;font-size:11px;font-weight:bold;}
+.comment-body p, .comment-body .reply {margin:5px 0 0 74px;}
